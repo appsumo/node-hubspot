@@ -1,5 +1,5 @@
 {
-  "name": "node-hubspot",
+  "name": "@appsumo/node-hubspot",
   "version": "0.0.3",
   "description": "A node.js wrapper for the Hubspot API.",
   "author": {
@@ -11,10 +11,13 @@
   "main": "./lib/hubspot",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Datahero/node-hubspot.git"
+    "url": "git+https://github.com/appsumo/node-hubspot.git"
   },
   "dependencies": {
     "querystring": "^0.2.0",
     "request": "2.x.x"
+  },
+  "publishConfig": {
+    "access": "restricted"
   }
 }
